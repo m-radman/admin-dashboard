@@ -145,6 +145,9 @@ button[type="submit"]:focus {
     display: grid;
     grid-template-rows: 1fr 4fr 4fr;
     gap: 15px;
+    position: fixed;
+    width: 15.9vw;
+    height: 100vh;
 }
 
 .logo {
@@ -250,7 +253,7 @@ h3#project {
 .announcements>div,
 .trending>div {
     background-color: #efefef;
-    padding: 0.1vh 0.7vw;
+    padding: 0.8vh 0.7vw;
     border-radius: 4px;
 }
 
@@ -262,7 +265,7 @@ h3#project {
 .news {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 100%));
-    grid-template-rows: repeat(auto-fill, minmax(400px, 55vh));
+    grid-template-rows: repeat(auto-fill, minmax(400px, 58vh));
     gap: 15px;
 }
 
